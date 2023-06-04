@@ -39,7 +39,6 @@ class DollarController extends AbstractController
     /**
      * @return Response
      * @Route("/api/dollar")
-     * @ApiResource(dollar)
      */
     #[Route('/dollar', name: 'app_dollar')]
     public function index(): Response
